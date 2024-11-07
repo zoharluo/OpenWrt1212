@@ -15,6 +15,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git_sparse_clone main https://github.com/messense/aliyundrive-webdav openwrt/aliyundrive-webdav
 git_sparse_clone main https://github.com/messense/aliyundrive-webdav openwrt/luci-app-aliyundrive-webdav
+git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 
 
 sed -i 's/192.168.1.1/192.168.2.66/g' package/base-files/files/bin/config_generate
